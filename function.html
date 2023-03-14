@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function func(){
+           alert('\nHello world');
+           alert('\nHello student'); 
+           alert('\nHello good afternoon');  
+        }
+       
+
+     function parafunc(fname, lname){
+        alert('First name is: '+fname+'\n'+'Last name is: '+lname);
+        func();
+     }
+     parafunc('Rimsha','Yousuf');
+      parafunc('Ahmed', 'Waseem');
+       parafunc('Arabish', 'gul');
+
+      for( var i =1; i<=5;i++){
+          var n1 = parseInt(prompt('Enter value1: '));
+          var n2 = parseInt(prompt('Enter value2: '));
+           Add(n1, n2);
+      }
+      
+        function Add(val1,val2){
+            var res = val1 + val2;
+            document.write('Result : '+res+'<br>');
+        }
+       
+    </script>
+</body>
+</html>                                                                                                                   
